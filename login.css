@@ -1,0 +1,172 @@
+html,body{
+  height:100%;
+  width:100%;
+  font-family:Trebuchet MS;
+
+}
+.navbar{
+
+  background-color: #FFFFFF;
+  font-size:1.1em;
+  font-family:Trebuchet MS;
+}
+.navbar-brand{
+   
+  padding:0px 0px 5px 110px;
+}
+#brand-image{
+  height:60px;
+  
+  border-right: 0.5px solid;
+  border-color:#FFFFFF;
+
+}
+.dropdown{
+  position:relative;
+}
+
+#myNavbar.dropdown-menu{
+  display:none;
+
+  position:absolute;
+  box-shadow:2px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index:1;
+}
+
+#myNavbar .dropdown:hover .dropdown-menu{
+  display:block;
+  background-color:pink;
+}
+
+#myNavbar {
+  padding-left:20px;
+}
+#myNavbar li a{
+ padding:25px 30px;
+  
+  color:#000000;
+   font-weight:bold;
+}
+#myNavbar li a:hover{
+   color:#000000;
+  background-color: #87CEEB;
+}
+#reg li a{
+padding:25px 0px 25px 40px;
+  color:#000000;
+   font-weight:bold;
+}
+.text{
+    color: black;
+}
+
+
+#sign{
+  padding-right:80px;
+  border-right: 0.5px solid;
+  border-color:#FFFFFF;
+  color:#000000;
+
+
+}
+
+@media (max-width: 1200px) {
+#brand-image{
+  height:50px;
+  padding-left:0px;
+  border-right: 0.5px solid;
+  border-color:#FFFFFF;
+}
+
+}
+@media (max-width: 700px) {
+#brand-image{
+  height:40px;
+  padding-left:0px;
+  border-right: 0.5px solid;
+  border-color:#FFFFFF;
+}
+
+}
+
+#home{
+  background:url(https://nickwignall.com/wp-content/uploads/2019/08/read-fewer-books-2.jpg) no-repeat center center fixed;
+  display:table;
+  height:45%;
+  position:relative;
+  width:100%;
+  background-size:cover;
+}
+.landing-text{
+  display:table-cell;
+  text-align:center;
+  vertical-align: middle;
+  font-family: monospace;
+  color:#FFFFFF;
+}
+.landing-text h1{
+  font-size:400%;
+  font-width:700;
+
+}
+.profile-img
+{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 60%;
+}
+.container{
+    background-color:#B0C4DE;
+    border-radius:15px;
+    width: 500px;
+    color:;
+    
+}
+.center{
+    padding-top:70px;
+    padding-bottom:50px;
+}
+
+input {
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-family: inherit;
+    font-size: 14px;
+    padding: 10px;
+    width: 100%;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+    color:white;
+    font-size:15px;
+}
+#footer{
+display: flex;
+flex-direction: row;
+height:300px;
+margin-bottom: 0px;
+background-color: black;   
+}
+.col-sm-12{
+height:250px;
+border-radius: 40px;
+margin-top: 10px;
+color: white;
+}
+table{width:300px;
+margin: 50px;
+margin-left:1050px;
+}
+.tableimage1{
+    width:250px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: -300px;
+}
